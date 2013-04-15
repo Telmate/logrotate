@@ -25,5 +25,10 @@
 <%= @prerotate %>
   endscript
 <%- end %>
+<%- if @lastaction %>
+  lastaction
+<%= @lastaction %>
+  endscript
+<%- end %>
 }
 <%- end %>

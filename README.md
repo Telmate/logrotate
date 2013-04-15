@@ -123,6 +123,9 @@ The definition takes the following params:
 * sharedscripts: if true, the sharedscripts options is specified which
   makes sure prescript and postscript commands are run only once (even
   if multiple files match the path)
+* lastaction: lines to be executed once after all log files that match
+  the wildcarded pattern are rotated, after postrotate script is run 
+  and only if at least one log is rotated
 
 See USAGE below.
 

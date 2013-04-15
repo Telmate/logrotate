@@ -15,7 +15,7 @@ module CookbookLogrotate
         shredcycles    start          tabooext
     ]
 
-  SCRIPTS = [ 'firstaction', 'prerotate', 'postrotate', 'lastaction', ]
+  SCRIPTS = [ 'firstaction', 'prerotate', 'postrotate', 'lastaction' ]
 
   DIRECTIVES_AND_VALUES = DIRECTIVES + VALUES
 
